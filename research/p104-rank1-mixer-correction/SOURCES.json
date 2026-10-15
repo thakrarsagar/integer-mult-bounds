@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "base_commit": "d9b24831174325cad2e04e34da2068d7acb02938",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "ae6a99f28aa468649eb66a361e764d769363bf11",
+      "sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "889b95d936746df124872133ae1e7cc339adcb92",
+      "sha256": "7d185cd8c2af35988d638d969748ad7b670f902606444dbfc748e4402c340df6"
+    },
+    {
+      "path": "research/complex-local-word-ceiling/ceiling.py",
+      "usage": "input",
+      "git_blob": "6c0f54527d879396f689523bfde19928a9b6157c",
+      "sha256": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc"
+    },
+    {
+      "path": "research/p104-monotone-relay-floor-audit/README.md",
+      "usage": "provenance",
+      "git_blob": "a8da976c83eda0c8c5ec7bc2f0f5068edb167c03",
+      "sha256": "1994370aa479f01b44a55c5f8afadec5e918dc60efac08cd29adbfc5098357e3"
+    },
+    {
+      "path": "research/p104-native-channel/inputs/LOWRANK-WITNESS.json",
+      "usage": "input",
+      "git_blob": "86beaf424e9f0f800ae3a62797d94ec9386b7706",
+      "sha256": "0f541bef7f19fdeffd67157684e9f03d785f42c89973632f508fc1a0452b580e"
+    },
+    {
+      "path": "research/p104-native-channel/inputs/P104-FIXTURE.json",
+      "usage": "input",
+      "git_blob": "2e16f99b295bb386fd13bd8fbd57b42ef54143a9",
+      "sha256": "516c06f6ec3cb84be588c546108de897650288576dd5fbf5fe44b9c5546ad8a4"
+    },
+    {
+      "path": "research/p104-no-relay-cover-audit/README.md",
+      "usage": "provenance",
+      "git_blob": "53d08ad013035fc3a7d13c17ce9bc6746920c698",
+      "sha256": "3203e2e2e6f2389cea2e12f85bba975af2781732ae20ec1856ac033afa8728a8"
+    },
+    {
+      "path": "research/p104-private-code-relay-floor/README.md",
+      "usage": "provenance",
+      "git_blob": "b49d49730d66f44adb6f7a05884847d64f215a1c",
+      "sha256": "eff162e2cff26fc6791cdce17e6e087e749aa87fce99b79049444328cbe13a80"
+    },
+    {
+      "path": "research/p104-y0-source-acquisition/README.md",
+      "usage": "provenance",
+      "git_blob": "64ae93c1b2071fadc0b3784e3382ea78d65fef4c",
+      "sha256": "884d46a5f0b3bf197543957b39cfde027d00fb32076ddcc1d82ab9b2f6cc4af6"
+    }
+  ],
+  "vendored_files": [
+    {
+      "path": "research/p104-rank1-mixer-correction/vendor/check_p104_relay_construction.py",
+      "sha256": "b808e70129fc2c01fbead974c770e0a39245f3a3968c53bcd1f49fb1972e865d",
+      "origin_git_blob": "d8a249db16ead8bfb8b47336ab5ce3a8133e1783",
+      "origin": "https://github.com/philippeVV/integer-mult-bounds/blob/fac9e821d31bc199b49e8ed463074a50d1264311/research/p104-correction-screen/relay-construction/check_p104_relay_construction.py",
+      "license": "Apache-2.0",
+      "modified": false
+    }
+  ],
+  "predecessor_heads": {
+    "philippeVV_relay_v2_and_checker": "fac9e821d31bc199b49e8ed463074a50d1264311",
+    "relay_v2_WORD_ct12_sha256": "10d47696ed9b42992f8518512c7007ce39774c66d95bfe6de3d964d419058a73",
+    "PR2353": "2704eadf6b5205d4b965e9c6fc6dce28b89783cf",
+    "PR2383": "41f3d517b521500b114f3491f5f5b68a0550f410",
+    "PR2392": "2134975a339ccb6d011e2794d0382e2895fdf8e8",
+    "PR2393": "8b3e3a22c9e957990863ef60a561072dfcf08271",
+    "PR2445": "6def43ad673b91dbd491389964d1dcd059bf2ac2",
+    "PR2467": "fbb750850aa55a8a75599270a07c6803647a61c9",
+    "PR2496": "f13badee663016e3e487e5183cc3cb03cd474cf4",
+    "PR2548": "c7a3286860057f9240e0371b33ada37cc63b7ad7",
+    "PR2572": "fe4446d0f94578eec4d89af31f806a132f94ede3",
+    "PR2586": "7953c9a8f788a8de5cf2ced63d9a61b67c22c6f1",
+    "PR2594": "6ae5673429d960a5fd0f936f6dfd67850e353278",
+    "PR2604": "f234bd0e5dca545aacbaaa457bd606e17de95baf",
+    "PR2614": "a4a2a1c734283272691b1083c819e98e7d757f20",
+    "PR2633": "cc8a86bcef203c7197f0c4a0352a2c728476b604",
+    "PR2640": "2a5b9d72371211eac1288b690bc2739a97132439",
+    "PR2654": "74d6e99055d76920d5e0766ef54cf96ef50b0a6d",
+    "PR2658": "ac61ce12fceb721a93a72ad19f1ab9d08a472e90",
+    "PR2662": "b67542b2896c21106f3945673bbf5b6e131408cc",
+    "PR2675": "ad889658a5586099132c6d7f38374df9a9d20bca",
+    "PR2682": "732ac496c06c080152483ed26af44749e9f26083"
+  },
+  "concurrent_context_not_dependencies": [
+    "PR2741 (Nick Petalas, all-pair P104 consumer budget obstruction; head fbe941c06e00e7aef64c2d11cd9ad27b7a083209), extending jmbarrancoml's four-pair screen at https://github.com/CrocSwap/integer-mult-bounds/discussions/2619#discussioncomment-18955566",
+    "PR2744 (flyingviper, P104 consumer cost credits / PR2725 stopping decision)",
+    "PR2720 (Nick Petalas, fixed-contract T74 inherited-correction floor; head 813fae623dcf3181fb9f535852ae4c82b1b369b5): a different family, listed only because it surfaced in the overlap search"
+  ],
+  "main_refresh": {
+    "base_commit": "d9b24831174325cad2e04e34da2068d7acb02938",
+    "first_prepared_on": "bcdf338bf10ed70f1b3a0325fdd429677920d089",
+    "first_rebase": "936fac15b1b1b59dc5285c713a77f9f3c07b2906 at about 2026-10-15T21:35Z; guidance diff since bcdf338bf: docs/research/bottleneck-brief.md +6 lines (QQ16 observation-contract map, bootstrap obligation map)",
+    "intermediate_rechecks": "df801f6da7b9aa8e01bd35decde7b1b1d45eec08 (22:20Z), db3edc00f and 28f54620f: no guidance, pin or P104 package change",
+    "second_rebase": "d9b24831174325cad2e04e34da2068d7acb02938 at about 2026-10-15T23:05Z, after #2383, #2392 and #2393 were merged as research/p104-private-code-relay-floor, research/p104-no-relay-cover-audit and research/p104-y0-source-acquisition (now pinned as provenance)",
+    "diff_936fac15b_to_base": "no change to AGENTS.md, autoresearch.md, CONTRIBUTING.md, docs/research/current-status.md, the bottleneck brief, priority log, family status, task catalogue, certificates/, the pinned inputs, ceiling.py or research/p104-monotone-relay-floor-audit; changed: PR ledger, review records, CONTRIBUTORS.md, scripts/research_package.py process-group cleanup with matching docs/research/research-package-guide.md wording, and new research packages including the three above",
+    "new_on_main_and_cited": "research/p104-monotone-relay-floor-audit (#2353), research/p104-side-correction-rank-obstruction (#2173), research/p104-private-code-relay-floor (#2383), research/p104-no-relay-cover-audit (#2392), research/p104-y0-source-acquisition (#2393)"
+  },
+  "overlap": "scripts/find_overlap.py --task p104-side-correction / complex-new-helper-inventory / complex-rank-shape-decoder, 2026-10-15 18:20-18:44Z, complete pagination (770/758 open PRs, 1337/1349 discussion records), term searches, a P104 open-PR refresh at 19:50Z, and refreshes at about 21:30Z, 22:20Z and 23:00Z on 2026-10-15 (all UTC) of #2245 (no comment after 17:07Z), the #1163 claims and PRs created since 19:00Z mentioning P104, lifetime, relay, I-G/2 or mixer (newest: #2772 physical-dual precision grid, #2784 decoder floors and #2813 ADD-retimed dual precision, different objects); no match is not proof of novelty",
+  "claim": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163#discussioncomment-18956070",
+  "credited_reports": {
+    "philippeVV_geometry_2245": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2245#discussioncomment-18951262 (2026-10-15 14:34Z: no three targets share a 7-frame, 127 splitting hyperplane pairs, affine u*, 384 proportional pairs)",
+    "philippeVV_relay_v2_2245": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2245#discussioncomment-18951795 (relay-v2, <=463 relay cap, 'a sharing count only gives L >~ 387')",
+    "philippeVV_window_bill_2245": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2245#discussioncomment-18949693 (window bill, 482 {1,1,7} allowance, hosting window)",
+    "philippeVV_correction_screen_208": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2245#discussioncomment-18939575 (the number 208, as credited by research/p104-monotone-relay-floor-audit)"
+  },
+  "different_scope_extensions_of_208": [
+    "PR2383 (commdata2338, merged as research/p104-private-code-relay-floor): 208 survives free root-code reads",
+    "PR2467 (ywz65, open): 208 survives read-only reads of every original helper at its actual frame; the floors of this package are not claimed under these reads (Open next question 5)"
+  ]
+}

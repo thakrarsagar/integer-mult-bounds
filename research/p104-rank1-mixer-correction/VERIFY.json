@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/complex-local-word-ceiling/ceiling.py",
+    "research/p104-native-channel/inputs/LOWRANK-WITNESS.json",
+    "research/p104-native-channel/inputs/P104-FIXTURE.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 600,
+      "checks": "Input and vendored-checker pins; finite facts F1-F8 and F7'-F8' recomputed by two implementations that must agree key by key; floors 219/234 (checker grammar) and 216/234 (singular in-frame mixing) by exact integer minimisation and the closed form; counts of pairs passing the necessary 2x2 test T: 288 (final-frame), 414 (full) and 240 (good-good), zero certified targets with two complementary halves passing T, and the |S(K)| histograms behind the structural reading of F8; the 12 F8' target IDs; nonzero same-path companion statistics for the zero counts; conditional floors 243/260; regenerated demonstration word (sha256 cf8f444b...) replayed by the primary replayer, the unchanged published relay checker and independent.py; seven negative controls rejected by all three for pinned reasons; side certificates (geometry lemma by two enumerations, frame-class block inventory); fixed-template allowances; every EXPECTED.json key must be produced and match."
+    }
+  ]
+}

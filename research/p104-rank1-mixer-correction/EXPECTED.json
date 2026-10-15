@@ -1,0 +1,390 @@
+{
+ "demo_pair": [
+  0,
+  1
+ ],
+ "control_reasons": {
+  "perturbed_mixer_coefficient": {
+   "primary": "Y1 keeps a dirty residue",
+   "published": "Y1 keeps dirty residue",
+   "independent": "target 1 keeps a dirty residue"
+  },
+  "dirty_residue": {
+   "primary": "Y0 keeps a dirty residue",
+   "published": "Y0 keeps dirty residue",
+   "independent": "target 0 keeps a dirty residue"
+  },
+  "illegal_frame_move": {
+   "primary": "move does not strictly enlarge the frame of lifetime 0",
+   "published": "move must strictly enlarge a nested frame",
+   "independent": "move of lifetime 0 does not strictly enlarge its frame"
+  },
+  "non_monotone_lifetime": {
+   "primary": "move does not strictly enlarge the frame of lifetime 9",
+   "published": "move must strictly enlarge a nested frame",
+   "independent": "move of lifetime 9 does not strictly enlarge its frame"
+  },
+  "read_of_Y": {
+   "primary": "operation 'read_Y' is outside the X-only grammar",
+   "published": "unknown op read_Y",
+   "independent": "operation 'read_Y' is outside the X-only grammar"
+  },
+  "unequal_frame_shear": {
+   "primary": "shear 0 += c*9 does not join two distinct lifetimes in one frame",
+   "published": "shear needs equal frames",
+   "independent": "shear of lifetime 0 by 9 across unequal frames"
+  },
+  "write_before_target_frame": {
+   "primary": "write to Y0 outside its frame at cut 3466",
+   "published": "write to Y0 outside its frame at cut 3466",
+   "independent": "write to Y0 outside its frame at cut 3466"
+  }
+ },
+ "expected": {
+  "SI_sizes_histogram": {
+   "0": 12,
+   "1": 24,
+   "12": 12,
+   "2": 24,
+   "3": 8,
+   "4": 24
+  },
+  "allowances_selected_saving": {
+   "1,1,1,1,5": 431,
+   "1,1,1,6": 478,
+   "1,1,7": 482,
+   "1x9": 333
+  },
+  "any_cover_triples_unfiltered_full": 2112,
+  "both_halves_T_any_targets_any_cover_full": 0,
+  "both_halves_T_final_frame": 0,
+  "both_halves_T_full_good": 0,
+  "both_halves_Tprime_final_frame_targets": 0,
+  "both_halves_Tprime_full_good_target_ids": [
+   1,
+   3,
+   6,
+   7,
+   12,
+   14,
+   41,
+   46,
+   54,
+   74,
+   81,
+   83
+  ],
+  "both_halves_Tprime_full_good_targets": 12,
+  "complementary_halves_SK_sizes": [
+   [
+    24,
+    24,
+    2112
+   ]
+  ],
+  "complementary_target_triples": 2112,
+  "conditional_floor_final_frame": {
+   "absorb_at_most_b_minus_1": 243,
+   "no_absorption": 260
+  },
+  "demo_meta": {
+   "W_dim": 6,
+   "Wp_dim": 6,
+   "gather_lifetimes": 18,
+   "minus": 9,
+   "mixer_lifetimes": [
+    0,
+    9
+   ],
+   "pair": [
+    0,
+    1
+   ],
+   "per_entry_lifetimes": 4956,
+   "plus": 9,
+   "shared_sources": 18
+  },
+  "demo_published_checker": "PASS_P104_RELAY_CONSTRUCTION lifetimes=4974 per_target=47.83 line_floor=208 idle_cap=482",
+  "demo_replay": {
+   "lifetimes": 4974,
+   "profile": {
+    "1": 9936,
+    "3": 16,
+    "5": 18,
+    "7": 4956
+   },
+   "rank_mass": 44766
+  },
+  "demo_word_sha256": "cf8f444b01d839ec627f976f5ff56b345a295fcd3577037b82dde604a4acb40a",
+  "diagonal_nonzero": 0,
+  "distinct_odd_normals": 104,
+  "final_frame_cover_hist": [
+   [
+    127,
+    127,
+    104
+   ]
+  ],
+  "floor_final_frame": 234,
+  "floor_final_frame_singular_mixing": 234,
+  "floor_full": 219,
+  "floor_full_singular_mixing": 216,
+  "floor_minimizers": {
+   "final_frame": [
+    26,
+    26,
+    0,
+    26
+   ],
+   "final_frame_singular_mixing": [
+    26,
+    26,
+    0,
+    26
+   ],
+   "full": [
+    11,
+    11,
+    0,
+    11
+   ],
+   "full_singular_mixing": [
+    8,
+    8,
+    0,
+    8
+   ]
+  },
+  "full_cover_hist": [
+   [
+    127,
+    127,
+    84
+   ],
+   [
+    130,
+    127,
+    8
+   ],
+   [
+    175,
+    127,
+    12
+   ]
+  ],
+  "good_targets": 84,
+  "lemma": {
+   "1": {
+    "frames": 104,
+    "max_ST": 48
+   },
+   "2": {
+    "frames": 5356,
+    "max_ST": 48
+   },
+   "3": {
+    "frames": 128230,
+    "max_ST": 48
+   },
+   "4": {
+    "frames": 1264801,
+    "max_ST": 48
+   }
+  },
+  "lemma_equality_shapes": {
+   "1": [
+    [
+     1,
+     48,
+     104
+    ]
+   ],
+   "2": [
+    [
+     2,
+     24,
+     2140
+    ]
+   ],
+   "3": [
+    [
+     4,
+     12,
+     168
+    ]
+   ],
+   "4": [
+    [
+     6,
+     8,
+     280
+    ]
+   ]
+  },
+  "min_uncovered_by_one_hyperplane": {
+   "final_frame": {
+    "18": 104
+   },
+   "full": {
+    "12": 12,
+    "15": 8,
+    "16": 24,
+    "17": 48,
+    "18": 12
+   }
+  },
+  "normal_shifted_sum_triples": 2112,
+  "normal_sum_triples": 0,
+  "normal_weight_hist": {
+   "1": 1,
+   "3": 28,
+   "5": 54,
+   "7": 20,
+   "9": 1
+  },
+  "offdiag_values": [
+   "-1/2",
+   "1/2"
+  ],
+  "pair_SK_size_hist": {
+   "18": 240,
+   "20": 1920,
+   "22": 1056,
+   "24": 2140
+  },
+  "pairs_passing_T_SK_size_hist": {
+   "final_frame": {
+    "18": 240,
+    "20": 48
+   },
+   "full": {
+    "18": 240,
+    "20": 174
+   },
+   "full_good_good": {
+    "18": 168,
+    "20": 72
+   }
+  },
+  "pairs_passing_T_final_frame": 288,
+  "pairs_passing_T_full": 414,
+  "pairs_passing_T_full_good_good": 240,
+  "pairs_passing_T_shapes_final_frame": [
+   [
+    18,
+    9,
+    9,
+    6,
+    6,
+    240
+   ],
+   [
+    20,
+    10,
+    10,
+    6,
+    6,
+    48
+   ]
+  ],
+  "pairs_passing_Tprime_SK_size_hist": {
+   "final_frame": {
+    "18": 240,
+    "20": 48,
+    "22": 384
+   },
+   "full": {
+    "18": 240,
+    "20": 174,
+    "22": 384,
+    "24": 240
+   },
+   "full_good_good": {
+    "18": 168,
+    "20": 72,
+    "22": 264,
+    "24": 120
+   }
+  },
+  "pairs_passing_Tprime_final_frame": 672,
+  "pairs_passing_Tprime_full": 1038,
+  "rank_one_inventory_top": {
+   "1": [
+    [
+     1,
+     48,
+     104
+    ]
+   ],
+   "2": [
+    [
+     2,
+     22,
+     384
+    ],
+    [
+     2,
+     23,
+     2112
+    ]
+   ],
+   "3": [
+    [
+     3,
+     14,
+     7040
+    ],
+    [
+     3,
+     15,
+     768
+    ],
+    [
+     4,
+     10,
+     168
+    ]
+   ],
+   "4": [
+    [
+     4,
+     10,
+     2880
+    ],
+    [
+     5,
+     8,
+     3360
+    ],
+    [
+     6,
+     7,
+     4480
+    ],
+    [
+     6,
+     8,
+     280
+    ]
+   ]
+  },
+  "row_support_size_hist": {
+   "48": 104
+  },
+  "single_cover_violations": 0,
+  "ustar": 13,
+  "x_frame_target_containments_by_dim": {
+   "1": 4992,
+   "3": 144,
+   "4": 156,
+   "5": 144,
+   "6": 92,
+   "7": 0,
+   "8": 0,
+   "9": 0
+  },
+  "x_frames_dim_ge7": 312,
+  "x_frames_dim_ge7_inside_target_hyperplane": 0,
+  "y_intermediate_max_dim": 6
+ }
+}
